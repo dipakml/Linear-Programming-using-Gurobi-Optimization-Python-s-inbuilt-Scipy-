@@ -20,7 +20,7 @@ Another very famous problem in the field of Computer Science is TSP or Travellin
 
 
 ###  Problem Statement
-<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpg" width=300>
+<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/problem_statement.PNG" width=800>
 
 
 ### Solving using Python's inbulit Scipy
@@ -32,7 +32,15 @@ Instead of having the greater than or equal to sign, you can multiply the yellow
 
 After introducing these changes, you get a new system:
 
+<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/problem_statement_modified.PNG" width=800>
 
+Steps:
+- from scipy.optimize import linprog # import linprog from scipy
+- Define objective function
+- Define inequality constraints
+- Define equality constraints
+- Define bounds of x & y.
+- Optimize
 
 
 ### Solving Using Gurobi Optimization
@@ -42,7 +50,7 @@ First we need to install gurobipy using pip install:
 Open cmd & type pip install gurobipy
 OR
 In Jupyter notebook type !pip install gurobipy
-<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpg" width=300>
+<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi_install.jpg" width=1200>
 
 Next steps:
 - Create a new model
