@@ -7,6 +7,7 @@
   * [Problem Statement](#problem-statement)
   * [Solving using Python inbuilt Scipy](#solving-using-python-inbuilt-scipy)
   * [Solving Using Gurobi Optimization](#solving-using-gurobi-optimization)
+  * [Scipy Vs Gurobi](#scipy-vs-gurobi)
 
 
 
@@ -23,7 +24,7 @@ Another very famous problem in the field of Computer Science is TSP or Travellin
 <img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/problem_statement.PNG" width=800>
 
 
-### Solving using Python's inbulit Scipy
+### Solving using Python inbuilt Scipy
 
 **Note-** Scipy linprog() solves only minimization (not maximization) problems and doesn’t allow inequality constraints with the greater than or equal to sign (≥). To work around these issues, you need to modify your problem before starting optimization:
 
@@ -59,7 +60,23 @@ Next steps:
 - Add constraints
 - Solve
 
+### Scipy Vs Gurobi
 
+We have got the same values for x & y using both Scipy & Gurobi. 
+
+While Scipy is useful for simple problems, it has some limitations:
+
+- SciPy’s linear programming capabilities are useful mainly for smaller problems. For larger and more complex problems, you might find other libraries more suitable   for the following reasons:
+
+- SciPy can’t run various external solvers.
+
+- SciPy can’t work with integer decision variables.
+
+- SciPy doesn’t provide classes or functions that facilitate model building. You have to define arrays and matrices, which might be a tedious and error-prone task for large problems.
+
+- SciPy doesn’t allow you to define maximization problems directly. You must convert them to minimization problems.
+
+- SciPy doesn’t allow you to define constraints using the greater-than-or-equal-to sign directly. You must use the less-than-or-equal-to instead.
 
 ### Technologies Used  
 ![](https://forthebadge.com/images/badges/made-with-python.svg) 
