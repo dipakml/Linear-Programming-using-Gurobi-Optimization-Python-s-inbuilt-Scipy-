@@ -20,7 +20,7 @@ Another very famous problem in the field of Computer Science is TSP or Travellin
 
 
 ###  Problem Statement
-
+<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpg" width=300>
 
 
 ### Solving using Python's inbulit Scipy
@@ -42,8 +42,7 @@ First we need to install gurobipy using pip install:
 Open cmd & type pip install gurobipy
 OR
 In Jupyter notebook type !pip install gurobipy
-
-
+<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpg" width=300>
 
 Next steps:
 - Create a new model
@@ -57,6 +56,6 @@ Next steps:
 ### Technologies Used  
 ![](https://forthebadge.com/images/badges/made-with-python.svg) 
 
-<img target="_blank" src="https://github.com/dipakml/Prediction-of-Concrete-Compressive-Strength/blob/master/Logo_Images/streamlit.png" width=160>
+<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpg" width=300>
 
 
