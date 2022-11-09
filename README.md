@@ -64,9 +64,8 @@ Next steps:
 
 We have got the same values for x & y using both Scipy & Gurobi. 
 
-While Scipy is useful for simple problems, it has some limitations:
 
-- SciPy’s linear programming capabilities are useful mainly for smaller problems. For larger and more complex problems, you might find other libraries more suitable   for the following reasons:
+SciPy’s linear programming capabilities are useful mainly for smaller problems. For larger and more complex problems, you might find other libraries more suitable   for the following reasons:
 
 - SciPy can’t run various external solvers.
 
