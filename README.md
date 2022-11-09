@@ -3,10 +3,10 @@
 <img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpg" width=300>
 
 ### Table of Content
-  * [Overview of Linear Programming](#overview)
+  * [Overview of Linear Programming](#overview-of-linear-programming)
   * [Problem Statement](#problem-statement)
-  * [Solving using Python's inbulit Scipy](#using-scipy)
-  * [Solving Using Gurobi Optimization](#gurobi-optimization)
+  * [Solving using Python inbuilt Scipy](#solving-using-python-inbuilt-scipy)
+  * [Solving Using Gurobi Optimization](#solving-using-gurobi-optimization)
 
 
 
