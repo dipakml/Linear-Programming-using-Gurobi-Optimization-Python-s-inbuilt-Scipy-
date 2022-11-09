@@ -1,6 +1,6 @@
 ##  Linear Programming using Gurobi Optimization & Python's inbuilt Scipy 
 
-<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpeg" width=800>
+<img target="_blank" src="https://github.com/dipakml/Linear-Programming-using-Gurobi-Optimization-Python-s-inbuilt-Scipy-/blob/master/gurobi.jpg" width=300>
 
 ### Table of Content
   * [Overview of Linear Programming](#overview)
