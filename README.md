@@ -17,7 +17,7 @@ Optimization is the process of finding maximum or minimum value of a given objec
 
 The real function (objective function) can be the cost of delivering goods from a warehouse to its customers which we would like to minimize by choosing the optimal route and optimal set of vehicles (decision variables) to deliver the goods given a limited number of drivers and time (constraints). This is a generic case of Route Optimization in the world of Operations Research and Optimization.
 
-Another very famous problem in the field of Computer Science is TSP or Travelling Salesman Problem, wherein we want to find the shortest route or least costly route to travel across all cities, given the pairwise distances between them. In this case, our objective function becomes minimizing the total distance (or total cost) travelled, decision variables become binary variables which tell whether the traveller should travel from City i to City j and constraints are applied such that the traveller covers all the cities and does not visit a city twice. We will also be handling a simpler but similar kind of problem today.
+Another very famous problem in the field of Computer Science is TSP or Travelling Salesman Problem, wherein we want to find the shortest route or least costly route to travel across all cities, given the pairwise distances between them. In this case, our objective function becomes minimizing the total distance (or total cost) travelled, decision variables become binary variables which tell whether the traveller should travel from City i to City j and constraints are applied such that the traveller covers all the cities and does not visit a city twice. We will also be handling a simpler but similar kind of problem.
 
 
 ###  Problem Statement
